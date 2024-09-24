@@ -64,6 +64,7 @@
         "parent": "748ad968-4dac-4d49-8736-29a2b0fe05a0",
         "attrs": {
           "label": {
+            "fill": "#C5C8C6",
             "refX": "50%",
             "textAnchor": "middle",
             "refY": "50%",
@@ -78,8 +79,8 @@
           "y": -287.5
         },
         "size": {
-          "width": 140,
-          "height": 80
+          "height": 80,
+          "width": 140
         },
         "angle": 0,
         "fixedRatio": false,
@@ -103,8 +104,8 @@
           "y": -207.5
         },
         "size": {
-          "width": 170,
-          "height": 85
+          "height": 85,
+          "width": 170
         },
         "angle": 0,
         "fixedRatio": false,
@@ -198,8 +199,8 @@
           "y": -220
         },
         "size": {
-          "width": 160,
-          "height": 85
+          "height": 85,
+          "width": 160
         },
         "angle": 0,
         "fixedRatio": false,
@@ -345,8 +346,8 @@
           "y": -210
         },
         "size": {
-          "width": 140,
-          "height": 85
+          "height": 85,
+          "width": 140
         },
         "angle": 0,
         "fixedRatio": false,
@@ -548,8 +549,8 @@
           "y": -20
         },
         "size": {
-          "width": 160,
-          "height": 80
+          "height": 80,
+          "width": 160
         },
         "angle": 0,
         "fixedRatio": false,
@@ -759,8 +760,8 @@
           "y": -10
         },
         "size": {
-          "width": 160,
-          "height": 70
+          "height": 70,
+          "width": 160
         },
         "angle": 0,
         "fixedRatio": false,
@@ -907,8 +908,8 @@
           "y": 120
         },
         "size": {
-          "width": 160,
-          "height": 90
+          "height": 90,
+          "width": 160
         },
         "angle": 0,
         "fixedRatio": false,
@@ -1053,7 +1054,7 @@
           }
         ],
         "marker": [
-          "Could not find declaration of EV_SYS_DOWN_B\nTrigger 'EV_SYS_DOWN_B' is no event."
+          "Dead transition. This transition is never taken due to the precedence of completion transition."
         ],
         "attrs": {}
       },
@@ -1064,8 +1065,8 @@
           "y": -710
         },
         "size": {
-          "width": 560,
-          "height": 350
+          "height": 350,
+          "width": 560
         },
         "angle": 0,
         "fixedRatio": false,
@@ -1100,8 +1101,8 @@
           "y": -670
         },
         "size": {
-          "width": 230,
-          "height": 80
+          "height": 80,
+          "width": 230
         },
         "angle": 0,
         "fixedRatio": false,
@@ -1126,8 +1127,8 @@
           "y": -490
         },
         "size": {
-          "width": 229.4375,
-          "height": 60
+          "height": 60,
+          "width": 229.4375
         },
         "angle": 0,
         "fixedRatio": false,
@@ -1189,6 +1190,7 @@
         "parent": "b563a90e-27d2-435a-a222-c0fb9ddbc18e",
         "attrs": {
           "label": {
+            "fill": "#C5C8C6",
             "refX": "50%",
             "textAnchor": "middle",
             "refY": "50%",
@@ -1414,8 +1416,8 @@
           "y": -670
         },
         "size": {
-          "width": 230,
-          "height": 80
+          "height": 80,
+          "width": 230
         },
         "angle": 0,
         "fixedRatio": false,
@@ -1440,8 +1442,8 @@
           "y": -490
         },
         "size": {
-          "width": 229.4375,
-          "height": 60
+          "height": 60,
+          "width": 229.4375
         },
         "angle": 0,
         "fixedRatio": false,
@@ -1503,6 +1505,7 @@
         "parent": "7f9f4c98-3833-4b76-9f78-d205d57f742f",
         "attrs": {
           "label": {
+            "fill": "#C5C8C6",
             "refX": "50%",
             "textAnchor": "middle",
             "refY": "50%",
@@ -1683,11 +1686,7 @@
           "Source and target of a transition must not be located in orthogonal regions!"
         ],
         "parent": "52a04eed-8850-4b8b-91c4-cd6a6948835f",
-        "attrs": {
-          "line": {
-            "strokeWidth": 4
-          }
-        }
+        "attrs": {}
       },
       {
         "type": "Region",
@@ -1732,8 +1731,8 @@
           "y": -670
         },
         "size": {
-          "width": 230,
-          "height": 80
+          "height": 80,
+          "width": 230
         },
         "angle": 0,
         "fixedRatio": false,
@@ -1758,8 +1757,8 @@
           "y": -490
         },
         "size": {
-          "width": 229.4375,
-          "height": 60
+          "height": 60,
+          "width": 229.4375
         },
         "angle": 0,
         "fixedRatio": false,
@@ -1821,6 +1820,7 @@
         "parent": "67fa2f76-d110-4b1b-b106-ab3e11dee4af",
         "attrs": {
           "label": {
+            "fill": "#C5C8C6",
             "refX": "50%",
             "textAnchor": "middle",
             "refY": "50%",
@@ -2001,6 +2001,68 @@
           "no viable alternative at input '<EOF>'"
         ],
         "parent": "a90fb847-3104-43f3-8005-a091bccea34b",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "05e0cd34-f790-43cc-bcce-2fb2d976b6da"
+        },
+        "target": {
+          "id": "d79b698f-33c9-4302-a45e-4a05f32e660b",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 80,
+              "dy": 60,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "EV_SYS_UP_DETECTAR_AUTO",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.4719282503335377,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "label": {
+                "text": "2",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "98f4f58e-41d6-407a-901d-4047657d5385",
+        "z": 228,
+        "vertices": [
+          {
+            "x": 710,
+            "y": 140
+          }
+        ],
         "attrs": {}
       }
     ]
